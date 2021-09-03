@@ -34,8 +34,8 @@ export default function PaymentInfo() {
 
             <Grid item xs={12} style={{height:"505px",backgroundImage:`url(${Payment})`,backgroundSize:"100% 505px",display:"flex",justifyContent:"center",alignItems:"center"}}>
                 <div>
-            <p className="top linky" style={{}}>PAYMENT'S PAGE</p>
-            <h1 className="topu">ALL THE PAYMENT OPTIONS</h1>
+            <p className="top linky" style={{}}>PAYMENT'S PAGE.</p>
+            <h1 className="topu">ALL THE PAYMENT OPTIONS.</h1>
                 </div>
             </Grid>           
         <Paper>
