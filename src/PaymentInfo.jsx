@@ -34,16 +34,14 @@ export default function PaymentInfo() {
 
             <Grid item xs={12} style={{height:"505px",backgroundImage:`url(${Payment})`,backgroundSize:"100% 505px",display:"flex",justifyContent:"center",alignItems:"center"}}>
                 <div>
-            <p className="top linky" style={{}}>PAYMENT'S PAGE.</p>
-            <h1 className="topu">ALL THE PAYMENT OPTIONS.</h1>
+            <p className="top linky" style={{}}>PAYMENT'S PAGE</p>
+            <h1 className="topu">ALL THE PAYMENT OPTIONS</h1>
                 </div>
             </Grid>           
-        <Paper>
-        <Grid container xs={12} style={{display:"grid",placeItems:"center"}}>
-        
-        <Grid xs={12} md={4} style={{margin:"40px 0"}}   data-aos="fade" >
-        <Container>
-      <div style={{width: '100%',boxShadow:"2px 2px 2px 1px grey",borderRadius:"15px",backgroundColor:"grey",display:"grid",placeItems:"center"}}>
+        <Grid item md={4}></Grid>
+        <Grid item sx={12} md={4} style={{padding:'30px 0'}}  data-aos="fade" >
+        <>
+      <div style={{width: '100%',boxShadow:"2px 2px 2px 1px grey",borderRadius:"15px",backgroundColor:"grey"}}>
           {/* heading of Payment info */}
             <div style={{width: '100%', height: '60px',background:' linear-gradient(45deg, black 80%, #fed517 65%)',borderRadius:"15px 15px 0 0",display:"flex",alignItems: 'center'}}>
                 <h1 style={{color:"white",textAlign:"left",marginLeft:"20px"}} className="linky"><strong>Payment's Info.</strong></h1>
@@ -61,11 +59,9 @@ export default function PaymentInfo() {
                 <img width="100%" height="400px" src={pay} style={{borderRadius:"10px"}}></img>
                 </div>
                 </div>
-                </Container>
-        </Grid>
+                </>
         </Grid>
 
-        </Paper>
 
       </Grid>
         </div>
