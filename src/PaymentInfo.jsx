@@ -39,12 +39,11 @@ export default function PaymentInfo() {
                 </div>
             </Grid>           
         <Paper>
-        <Grid container xs={12}>
+        <Grid container xs={12} style={{display:"grid",placeItems:"center"}}>
         
-        <Grid xs={4}></Grid>
         <Grid xs={12} md={4} style={{margin:"40px 0"}}   data-aos="fade" >
         <Container>
-      <div style={{width: '100%',boxShadow:"2px 2px 2px 1px grey",borderRadius:"15px",backgroundColor:"grey"}}>
+      <div style={{width: '100%',boxShadow:"2px 2px 2px 1px grey",borderRadius:"15px",backgroundColor:"grey",display:"grid",placeItems:"center"}}>
           {/* heading of Payment info */}
             <div style={{width: '100%', height: '60px',background:' linear-gradient(45deg, black 80%, #fed517 65%)',borderRadius:"15px 15px 0 0",display:"flex",alignItems: 'center'}}>
                 <h1 style={{color:"white",textAlign:"left",marginLeft:"20px"}} className="linky"><strong>Payment's Info.</strong></h1>
@@ -64,7 +63,6 @@ export default function PaymentInfo() {
                 </div>
                 </Container>
         </Grid>
-        <Grid xs={4}></Grid>
         </Grid>
 
         </Paper>
